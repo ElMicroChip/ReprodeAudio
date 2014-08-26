@@ -21,6 +21,8 @@
 		0CD11007199FC8FC00A7F378 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD10FE9199FC8FC00A7F378 /* UIKit.framework */; };
 		0CD1100F199FC8FC00A7F378 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1100D199FC8FC00A7F378 /* InfoPlist.strings */; };
 		0CD11011199FC8FC00A7F378 /* ReprodeAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD11010199FC8FC00A7F378 /* ReprodeAudioTests.m */; };
+		0CD1101B199FCB6500A7F378 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1101A199FCB6500A7F378 /* AVFoundation.framework */; };
+		0CD1101D199FD41300A7F378 /* musica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1101C199FD41300A7F378 /* musica.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		0CD1100C199FC8FC00A7F378 /* ReprodeAudioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReprodeAudioTests-Info.plist"; sourceTree = "<group>"; };
 		0CD1100E199FC8FC00A7F378 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0CD11010199FC8FC00A7F378 /* ReprodeAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReprodeAudioTests.m; sourceTree = "<group>"; };
+		0CD1101A199FCB6500A7F378 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0CD1101C199FD41300A7F378 /* musica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD1101B199FCB6500A7F378 /* AVFoundation.framework in Frameworks */,
 				0CD10FE8199FC8FC00A7F378 /* CoreGraphics.framework in Frameworks */,
 				0CD10FEA199FC8FC00A7F378 /* UIKit.framework in Frameworks */,
 				0CD10FE6199FC8FC00A7F378 /* Foundation.framework in Frameworks */,
@@ -82,6 +87,7 @@
 		0CD10FD9199FC8FC00A7F378 = {
 			isa = PBXGroup;
 			children = (
+				0CD1101C199FD41300A7F378 /* musica.mp3 */,
 				0CD10FEB199FC8FC00A7F378 /* ReprodeAudio */,
 				0CD1100A199FC8FC00A7F378 /* ReprodeAudioTests */,
 				0CD10FE4199FC8FC00A7F378 /* Frameworks */,
@@ -101,6 +107,7 @@
 		0CD10FE4199FC8FC00A7F378 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CD1101A199FCB6500A7F378 /* AVFoundation.framework */,
 				0CD10FE5199FC8FC00A7F378 /* Foundation.framework */,
 				0CD10FE7199FC8FC00A7F378 /* CoreGraphics.framework */,
 				0CD10FE9199FC8FC00A7F378 /* UIKit.framework */,
@@ -230,6 +237,7 @@
 			files = (
 				0CD10FFE199FC8FC00A7F378 /* Images.xcassets in Resources */,
 				0CD10FF0199FC8FC00A7F378 /* InfoPlist.strings in Resources */,
+				0CD1101D199FD41300A7F378 /* musica.mp3 in Resources */,
 				0CD10FF9199FC8FC00A7F378 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
